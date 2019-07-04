@@ -21,8 +21,18 @@ composer require softonic/laravel-request-content-decompress-middleware
 Documentation
 -------
 
+To use the middleware simply register it in `app/Http/Kernel.php`
 
+```
+    protected $middleware
+        = [
+            ...
+            RequestContentDecompress::class,
+            ...
+        ];
+```
 
+From now on all requests having `Content-Encoding: gzip` will be automatically decompressed and processed as a uncompressed request.
 
 Testing
 -------
