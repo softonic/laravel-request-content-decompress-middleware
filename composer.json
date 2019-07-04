@@ -1,0 +1,39 @@
+{
+    "name": "softonic/laravel-request-content-decompress-middleware",
+    "type": "library",
+    "description": "Laravel request content decompress middleware",
+    "keywords": ["gzip", "request", "middleware", "laravel"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/softonic/laravel-request-content-decompress-middleware",
+    "support": {
+        "issues": "https://github.com/softonic/laravel-request-content-decompress-middleware/issues"
+    },
+    "require": {
+        "php": ">=7.1",
+        "illuminate/http": "^5.8",
+        "illuminate/contracts": "^5.8",
+        "ext-zlib": "*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpunit/phpunit": "^7.0",
+        "friendsofphp/php-cs-fixer": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softonic\\RequestContentDecompress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Softonic\\RequestContentDecompress\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "tests": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+        "phpunit": "phpunit --coverage-text",
+        "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+        "fix-cs": "php-cs-fixer fix -v --diff --allow-risky=yes;"
+    }
+}
+

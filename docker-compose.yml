@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+  tests:
+    volumes:
+    - ./:/app
+    image: ricc/composer-prestissimo:latest
+    command: composer run tests
+
+  fixcs:
+    volumes:
+    - ./:/app
+    image: ricc/composer-prestissimo:latest
+    command: composer run fix-cs
+
+  psysh:
+    volumes:
+    - ./:/app
+    image: ricc/psysh:latest
