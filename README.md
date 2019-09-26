@@ -7,6 +7,8 @@ Laravel request content decompress middleware
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/softonic/laravel-request-content-decompress-middleware.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/laravel-request-content-decompress-middleware/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/softonic/laravel-request-content-decompress-middleware.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/laravel-request-content-decompress-middleware)
 [![Total Downloads](https://img.shields.io/packagist/dt/softonic/laravel-request-content-decompress-middleware.svg?style=flat-square)](https://packagist.org/packages/softonic/laravel-request-content-decompress-middleware)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/softonic/laravel-request-content-decompress-middleware.svg?style=flat-square)](http://isitmaintained.com/project/softonic/laravel-request-content-decompress-middleware "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/softonic/laravel-request-content-decompress-middleware.svg?style=flat-square)](http://isitmaintained.com/project/softonic/laravel-request-content-decompress-middleware "Percentage of issues still open")
 
 This middleware adds the ability to automatically decompress the content of a compressed request
 
