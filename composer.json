@@ -10,8 +10,8 @@
     },
     "require": {
         "php": ">=7.1",
-        "illuminate/http": "^5.8",
-        "illuminate/contracts": "^5.8",
+        "illuminate/http": "^5.8 || ^6.0",
+        "illuminate/contracts": "^5.8 || ^6.0",
         "ext-zlib": "*"
     },
     "require-dev": {
@@ -30,7 +30,7 @@
         }
     },
     "scripts": {
-        "tests": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
+        "test": "phpunit --coverage-text; php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
         "phpunit": "phpunit --coverage-text",
         "phpcs": "php-cs-fixer fix -v --diff --dry-run --allow-risky=yes;",
         "fix-cs": "php-cs-fixer fix -v --diff --allow-risky=yes;"
