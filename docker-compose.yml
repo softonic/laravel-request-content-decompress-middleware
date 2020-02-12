@@ -1,7 +1,7 @@
 version: '3.6'
 
 services:
-  tests:
+  test:
     volumes:
     - ./:/app
     image: ricc/composer-prestissimo:latest
